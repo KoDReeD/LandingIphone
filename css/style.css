@@ -98,7 +98,11 @@ body {
   padding: 80px 0 150px;
 }
 
-
+.headline .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .new-title, 
 .color-title {
