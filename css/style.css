@@ -99,7 +99,8 @@ body {
   padding: 80px 0 150px;
 }
 
-.new-title {
+.new-title, 
+.color-title {
   margin: 0 0 50px;
   text-transform: uppercase;
   text-align: center;
@@ -127,4 +128,28 @@ body {
 
 .image-new {
   margin-left: 190px;
+}
+
+.color {
+  padding-bottom: 150px;
+}
+
+.color-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.color-item img {
+  margin-bottom: 20px;
+}
+
+.color-item h3 {
+  font-size: 20px;
+  min-height: 26px;
+  max-width: 0 0 10px;
+}
+
+.color-item p {
+  margin: 0;
 }
